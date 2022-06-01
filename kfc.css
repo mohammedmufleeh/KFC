@@ -1,0 +1,433 @@
+body{
+    margin: 0;
+}
+.continer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: white;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    background: white;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+   
+    
+}
+.logo{
+    vertical-align: middle;
+    padding: 10px;
+    position: absolute;
+    top: 30px;
+    left: 115px;
+    
+}
+.header-item{
+
+    position: absolute;
+    top: 45px;
+    left: 240px;
+    
+}
+
+.header-button{
+    border: none;
+    margin-right: 20px;
+    font-weight: bolder;
+    background-color: white;
+    /* position: absolute */
+}
+.header-right{
+    position: absolute;
+    left: 820px;
+    width: 2cm;
+    border: none;
+    border-right: 1px solid #a2a2a2 ;
+    background-color: white;
+    font-weight: 700;
+   
+    padding-bottom: 6px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.sign-image{
+    position: absolute;
+    left: 800px;
+   
+
+}
+.bucket-icon{
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    left: 930px;
+    top: -12px;
+}
+.balance-icon{
+    position: absolute;
+    left: 906px;
+    top: -20px;
+}
+.frame-2{
+margin-top: 10%;
+display: flex;
+align-items: center;
+top: 100px;
+width: 100%;
+height: 68px;
+background-color: #202124;
+}
+.frame2-text{
+    color: white;
+    padding-left: 465px;
+    padding-top: 6px;
+    font-style: normal;
+    font-family: "National 2 Condensed";
+    transform: scale(.8,1);
+}
+.orderbutton{
+    cursor: pointer;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-color: #e4002b;
+    color: #ffffff ;
+    font-family: "National 2 Regular";
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: -77px;
+    font-weight: 500;
+}
+.main-image{
+    cursor: pointer;
+    width: 100%;
+}
+.frame3{
+    display: flex;
+    margin-top: -4px;
+    margin-left: 167px;
+}
+.line{
+    width: 8px;
+    height: 20px;
+    background-color: red;
+    margin-left: 8px;
+}
+.frame3-text{
+    font-family: "impact";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 44px;
+    line-height: 58px;
+    color: #202124;
+    margin-top: 51.71px;
+    margin-bottom: 30px;
+    margin-left: -41px;
+}
+.menu-continer{
+    display: flex;
+}
+.borwrs{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    color: #202124;
+    margin-left: 148px;
+    margin-top: 100px;
+}
+.horizontal-line{
+    
+    border-top: 2px solid #e3e3e3;
+    width: 54%;
+    height: 1px;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.menu{
+    display: grid;
+    grid-template-rows: 42vh 42vh;;
+    grid-template-columns: 22% 22% 22% 22%;
+    gap: 20px;
+   
+    margin: 19px 110px 0px 110px;
+}
+.menu-cards{
+    width: 100%;
+    height: 100%;
+    background: #f8f7f5;
+    /* position: relative; */
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.image1{
+    width: 247px;
+    height: 180px;
+}
+.menu-text1{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 44px; 
+    padding-top: 5px;
+}
+.image2{
+     width: 247px;
+    height: 180px;
+}
+.menu-text2{
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 60px; 
+    padding-top: 5px;
+}
+.image3{
+    width: 247px;
+    height: 180px; 
+   
+}
+.menu-text3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    padding-left: 72px; 
+    padding-top: 5px;
+}
+.image4{
+    width: 247px;
+    height: 180px; 
+    
+}
+.menu-text4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 60px;
+    padding-top: 5px;
+}
+.image5{
+    width: 247px;
+    height: 180px;   
+}
+.menu-text5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 90px;
+    padding-top: 5px;
+}
+.image6{
+width: 247px;
+height: 180px; 
+}
+.menu-text6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 90px;
+    padding-top: 5px;
+}
+.image7{
+    width: 247px;
+    height: 180px; 
+}
+.menu-text7{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 64px;
+    padding-top: 5px;   
+}
+.image8{
+    width: 194px;
+    height: 183px;
+    padding-left: 29px;
+
+}
+.menu-text8{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 64px;
+    padding-top: 5px;      
+}
+.footer{
+   
+    background-color: #202124;
+    margin-top: 90px;
+    padding-bottom: 50px;
+}
+.footer-line{
+    display: flex;
+    margin-top: -4px;
+    margin-left: 167px;
+}
+.line1{
+    width: 14px;
+    height: 37px;
+    background-color: red;
+    margin-left: 15px;
+}
+.offer-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 300;
+    padding-left: 178px;
+    padding-top: 42px;
+}
+.offertext{
+    display: flex;
+    color: white;
+}
+.offer-text2{
+    cursor: pointer;
+    padding-top: 49px;
+    padding-left: 53%;
+}
+.card{
+    display: flex;
+    margin-left: -36px;
+}
+.footer-image1{
+    width: 247px;
+    background-color: white;
+    margin-left: 220px;
+    margin-top: 15px;
+
+}
+.fimage1{
+    width: 275px;
+    height: 231px;
+    padding-left: 34px;
+}
+.image1{
+    margin-right: 50px;
+}
+
+
+.card{
+    display: flex;
+    padding-left: 222px;
+}
+.footer-image-text{
+
+    border: none;
+    width: 274px;
+    margin-left: 220px;
+    margin-top: -25px;
+    background-color: white;
+    color: #e4002b;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text1{
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.footer-image-text2{
+    background-color: white;
+    width: 274px;
+    margin-left: 529px;
+    margin-top: -61px;
+    color: #e4002b;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.footerbuttons{
+    background-color: white;
+    width: 274px;
+    margin-left: 220px;
+    margin-top: -21px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.detailsbutton{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    padding-top: 12px;
+}
+.redeembutton{
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 8px 34px;
+    margin-top: 10px;
+}
+.redeembutton:hover{
+    background-color: black;
+    color: white;
+}
+.footerbuttons2{
+    background-color: white;
+    width: 274px;
+    margin-left: 529px;
+    margin-top: -65px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.footer-row{
+    display: flex;
+    padding-top: 126px;
+}
+.footerlogo{
+    cursor: pointer;
+    padding-left: 110px;
+    padding-top: 17px;
+}
+.list-title{
+    color: white;
+    
+}
+.a{
+    list-style: none;
+}
+.kfcfinder{
+    
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+.loclink{
+    color: white;
+}
+.apple{
+    margin-left: 23px;
+    margin-top: 10px;
+}
+.logoimage{
+    cursor: pointer;
+    padding-left: 137px;
+    margin-top: -30px;
+}
+.footer-end{
+    display: flex;
+
+}
+.sociallogo{
+    cursor: pointer;
+    padding-left: 27%;
+    padding-top: 17px;
+}
+.footertext{
+    color: #dbdbdb;
+    padding-left: 36%;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
